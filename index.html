@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    <title>AbbasType | Typing speed test</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+<body>
+    
+    <div id="time-modal" class="modal" style="display:none;">
+      <div class="modal-content">
+        <h2>Select Time</h2>
+        <button class="time-btn" data-time="15000">15s</button>
+        <button class="time-btn" data-time="30000">30s</button>
+        <button class="time-btn" data-time="60000">60s</button>
+      </div>
+    </div>
+    <div id="result-modal" class="modal" style="display:none;">
+      <div class="modal-content">
+        <h2>Result</h2>
+        <p id="result-wpm"></p>
+        <p id="result-accuracy"></p>
+        <p id="result-mistakes"></p>
+        <button id="restart-btn">New Game</button>
+      </div>
+    </div>
+    <main>
+        <h1>
+            <i class="fa-solid fa-keyboard"></i>
+            FrontEnd with Abbas
+        </h1>
+        <div id="header">
+            <div id="info"></div>
+            <div id="buttons">
+                <button id="newGameBtn">New game</button>
+            </div>
+        </div>
+        <div id="game" tabindex="0">
+            <div id="words"></div>
+            <div id="cursor"></div>
+            <div id="focus-error">Click here to focus</div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <img src="logo.jpg" alt="AbbasType Logo" class="footer-logo">FrontEnd with Abbas
+            </div>
+            <div class="footer-center">
+                <a href="https://github.com/Abbas-Devloper" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="mailto:soomromuhammadabbas671@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="https://www.youtube.com/@FrontEnd-with-Abbas" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="https://www.facebook.com/muhammadabbas.soomro.10" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                
+            </div>
+            <div class="footer-copyright">
+                    &copy; 2025 AbbasType. All rights reserved.
+                </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
